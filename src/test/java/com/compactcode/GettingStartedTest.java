@@ -74,7 +74,7 @@ public class GettingStartedTest {
 	@Test
 	public void removeDuplicateElements() {
 		List<String> expected = Arrays.asList("a", "b");
-		List<String> actual   = listOf("a", "a", "b", "b").unique();
+		List<String> actual   = listOf("a", "a", "b", "b").unique().sort();
 		assertEquals(expected, actual);
 	}
 	
