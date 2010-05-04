@@ -6,7 +6,7 @@
 ## Step Two
 Either:
 
-* [Clone the project](git@github.com:compactcode/compacted-examples.git)
+* Clone the project: git@github.com:compactcode/compacted-examples.git
 * or
 * [Download the project](http://github.com/compactcode/compacted-examples/archives/master)
 
