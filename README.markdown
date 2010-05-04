@@ -1,11 +1,16 @@
 # Examples demonstrating features of the compacted-collections project
 
-Install Maven
+## Step One
+[Install Maven] (http://maven.apache.org)
 
-Either
-* Clone the project: git@github.com:compactcode/compacted-examples.git
-* Download the project: http://github.com/compactcode/compacted-examples/archives/master
+## Step Two
+Either:
 
-Set up an eclipse project
+* [Clone the project] (git@github.com:compactcode/compacted-examples.git)
+* or
+* [Download the project] (http://github.com/compactcode/compacted-examples/archives/master)
+
+## Step Three
+Set up an eclipse project:
 
 	mvn eclipse:eclipse -DdownloadSources=true

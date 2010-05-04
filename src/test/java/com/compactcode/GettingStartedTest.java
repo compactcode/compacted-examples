@@ -46,7 +46,7 @@ public class GettingStartedTest {
 	@Test
 	public void findFirstIntegerLessThan6() {
 		Integer expected = 5;
-		Integer actual   = listOf(6, 7, 5, 4).filter(lessThan(6)).first();
+		Integer actual   = listOf(6, 7, 5, 4).find(lessThan(6));
 		assertEquals(expected, actual);
 	}
 	
